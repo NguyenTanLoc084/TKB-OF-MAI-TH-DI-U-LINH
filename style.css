@@ -48,6 +48,13 @@ td.empty {
 
 td {
     word-wrap: break-word;
+    cursor: pointer;
+    position: relative;
+}
+
+td:focus {
+    background-color: #e3f2fd;
+    outline: none;
 }
 
 thead th {
